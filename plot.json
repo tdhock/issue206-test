@@ -1,0 +1,271 @@
+{
+ "geoms": {
+ "geom1_point_scatter": {
+ "geom": "point",
+"classed": "geom1_point_scatter",
+"aes": {
+ "x": "life.expectancy",
+"y": "fertility.rate",
+"colour": "Region",
+"showSelected1": "Region" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "Region",
+"help_showSelected": "Region" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelected1": "character",
+"PANEL": "integer",
+"fill": "rgb",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"selectors": {
+ "Region": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "Europe & Central Asia", "Middle East & North Africa", "South Asia", "Latin America & Caribbean", "Sub-Saharan Africa", "East Asia & Pacific", "North America" ],
+"levels": [ "Europe & Central Asia", "Middle East & North Africa", "South Asia", "Latin America & Caribbean", "Sub-Saharan Africa", "East Asia & Pacific", "North America" ],
+"update": [
+ "geom1_point_scatter" 
+] 
+} 
+},
+"plots": {
+ "scatter": {
+ "panel_margin_lines":     0.25,
+"legend": {
+ "Region": {
+ "guide": "legend",
+"geoms": "point",
+"title": "Region",
+"class": "Region",
+"selector": "Region",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "East Asia & Pacific" 
+},
+{
+ "pointcolour": "#C49A00",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Europe & Central Asia" 
+},
+{
+ "pointcolour": "#53B400",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Latin America & Caribbean" 
+},
+{
+ "pointcolour": "#00C094",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Middle East & North Africa" 
+},
+{
+ "pointcolour": "#00B6EB",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "North America" 
+},
+{
+ "pointcolour": "#A58AFF",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "South Asia" 
+},
+{
+ "pointcolour": "#FB61D7",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Sub-Saharan Africa" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       40,
+      50,
+      60,
+      70 
+] 
+],
+"y": [
+ [
+        2,
+       4,
+       6,
+       8 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75 
+] 
+],
+"y": [
+ [
+        2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       40,
+      50,
+      60,
+      70 
+],
+"xlab": [
+ "40",
+"50",
+"60",
+"70" 
+],
+"xrange": [ 32.05308, 77.65143 ],
+"xline": true,
+"xticks": true,
+"y": [
+        2,
+       4,
+       6,
+       8 
+],
+"ylab": [
+ "2",
+"4",
+"6",
+"8" 
+],
+"yrange": [   1.1108,   8.5732 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "life.expectancy",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "fertility.rate",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "40",
+"50",
+"60",
+"70" 
+],
+"ylabs": [
+ "2",
+"4",
+"6",
+"8" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"geoms": [
+ "geom1_point_scatter" 
+] 
+} 
+},
+"source": "https://github.com/my/source/code",
+"title": "my title" 
+}
